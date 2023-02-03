@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+// import Navbar from './navbar';
+// import Home from './Home';
+
+import Post from './Post';
+// // import Post2 from './Post2';
+// import Post3 from './Post3';
 
 function App() {
+  // const title = "Beazy";
+  // const link = "http://www.google.com"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Post></Post>
+      {/* <Post2></Post2>
+      <Post3></Post3> */}
+    </div >
   );
 }
+
 
 export default App;
